@@ -1,0 +1,400 @@
+.cdivider    /*Home Page Section Divider*/
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: lightblue;
+    }
+
+.mcheader /*Main Header Section of Wildlife Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/3;
+        padding: 10px;
+    }
+
+.mcfooter   /*Main Footer Section of Wildlife Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/3;
+        padding: 10px;
+    }
+
+.toprow1    /*Main Header First Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.toprow2    /*Main Header Second Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.toprow2 a
+    {
+        text-decoration:none;
+        color: white;
+    }
+
+.toprow3    /*Main Header Third Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(13,auto);
+        justify-content: space-evenly;
+    }
+
+.bottomrow1
+    {
+        display: grid;
+        grid-template-columns: repeat(13,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.bottomrow2
+    {
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.bottomrow2 a
+    {
+        text-decoration:none;
+        color: white;
+    }
+
+.bottomrow3
+    {
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        justify-content: space-evenly;
+    }
+
+.logo   /*Logo Styling*/
+    {
+        float: left;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+a:hover     /*Entire Body Hyperlinks*/
+    {
+        background-color: #FFBE29;
+    }
+
+ul.pbreadcrumb  /*Primary Breadcrumb Trail*/
+    {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+
+ul.pbreadcrumb li
+    {
+        display: inline;
+        font-size: 18px;
+    }
+
+ul.pbreadcrumb li+li:before
+    {
+        padding: 8px;
+        color: black;
+        content: ">\00a0";
+    }
+
+ul.pbreadcrumb li a
+    {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+ul.pbreadcrumb li a:hover
+    {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+.h1 /*All H1 Headers*/
+    {
+        color: white;
+        background-color: #00534E;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+.h2 /*All H2 Headers*/
+    {
+        color: white;
+        background-color: #EB7400;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+.h3 /*All H3 Headers*/
+    {
+        color: white;
+        background-color: #FFBE29;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+.ctitle     /*Contacts Page Title Section*/
+    {
+        grid-column: 1/3;
+    }
+
+.stat   /*Beach Page Sri Lanka Tourisum Authority Table*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;    
+    }
+
+.bhct   /*Beach Page Beach Hotel Contacts Table*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;  
+    }
+.table
+    {
+        text-align: center;
+        max-width: 100%;
+        border: 2px;
+    }
+
+@media (min-width:900px) and (max-width:1000px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(12,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(12,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .cdivider 
+            {
+                display: inline-block;
+                grid-template-columns: none;
+            }
+        .logo
+            {
+                float: none;
+            }
+    }
+
+@media (min-width:700px) and (max-width:899px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(10,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(10,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .cdivider 
+            {
+                display: inline-block;
+                grid-template-columns: none;
+            }
+        .logo
+            {
+                float: none;
+            }
+    }
+
+@media (min-width:500px) and (max-width:699px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(8,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(8,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .logo
+            {
+                float: none;
+            }
+        .cdivider
+            {
+                display: inline-block;
+                grid-template-columns: none;
+            }
+    }
+    
+@media (min-width:300px) and (max-width:499px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(6,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(6,auto); 
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .logo
+            {
+                float: none;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        .cdivider
+            {
+                display: inline-block;
+                grid-template-columns: none;
+            }
+    }
+
+@media (min-width:100px) and (max-width:299px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(4,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(4,auto); 
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .logo
+            {
+                float: none;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        .cdivider
+            {
+                display: inline-block;
+                grid-template-columns: none;
+            }
+    }
+

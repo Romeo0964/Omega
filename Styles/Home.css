@@ -1,0 +1,557 @@
+.hdivider   /*Home Page Section Divider*/
+    {
+        display: grid;
+        grid-template-columns: 35% 40% 25%;
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: lightblue;
+    }
+
+.toprow1    /*Main Header First Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.toprow2    /*Main Header Second Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.toprow2 a
+    {
+        text-decoration:none;
+        color: white;
+    }
+
+.toprow3    /*Main Header Third Row*/
+    {
+        display: grid;
+        grid-template-columns: repeat(13,auto);
+        justify-content: space-evenly;
+    }
+.bottomrow1
+    {
+        display: grid;
+        grid-template-columns: repeat(13,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.bottomrow2
+    {
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+.bottomrow2 a
+    {
+        text-decoration:none;
+        color: white;
+    }
+.bottomrow3
+    {
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        justify-content: space-evenly;
+    }
+
+.logo   /*Logo Styling*/
+    {
+        float: left;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+.mheader    /*Main Header Section of Home Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/4;
+        padding: 10px;
+    }
+
+.mfooter   /*Main Header Section of Home Page*/
+    {
+        background-color: #8d153a;
+        padding: 10px;
+        color: white;
+        grid-column: 1/4;
+    }
+    
+a:hover     /*Entire Body Hyperlinks*/
+    {
+        background-color: #FFBE29;
+    }
+
+.map_intro  /*Map Introduction Section of Home Page*/
+    {
+
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+    }
+
+.welcome    /*Welcome Section of Home Page*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.mgallery   /*Home Page Main Gallery*/
+    {
+        margin-top: 10px;
+        padding: 5px;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
+.dl a   /*Home Page Definition List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.ul a   /*Home Page Unordered List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.ol a   /*Home Page Ordered List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.mgallery_Links /*Home Page Main Gallery Hyperlinks*/
+    {
+        margin-left: 4px;
+        margin-right: 4px;
+        padding: 10px;
+    }
+.pic
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+.side   /*Side Section of Home Page*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.marine-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkred;
+    }
+
+.h1 /*All H1 Headers*/
+    {
+        color: white;
+        background-color: #00534E;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+.h2 /*All H2 Headers*/
+    {
+        color: white;
+        background-color: #EB7400;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+.h3 /*All H3 Headers*/
+    {
+        color: white;
+        background-color: #FFBE29;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+.m-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.ancestory-align
+    {
+        position: relative;
+        text-align: center;
+        color:yellow;
+    }
+
+.a-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.excercises-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkblue;
+    }
+
+.e-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.fauna-and-flora-align
+    {
+        position: relative;
+        text-align: center;
+        color:white;
+    }
+
+.fandf-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.scenic-views-align
+    {
+        position: relative;
+        text-align: center;
+        color:red;
+    }
+
+.sandv-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.wonders-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkorange;
+    }
+
+.wonders-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+.pic
+    {
+        opacity: 0.8;
+    }
+    
+@media (min-width:900px) and (max-width:1000px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(12,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(12,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .sri_lanka_map
+            {
+                height: 480px;
+                width: 100%;
+            }
+        .sigiriya
+            {
+                width:100%;
+                height: 240px;
+            }
+        .mgallery
+            {
+                margin-left: 40px; 
+            }
+    
+    }
+
+@media (min-width:700px) and (max-width:899px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(10,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(10,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(3,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .sri_lanka_map
+            {
+                height: 420px;
+                width: 100%;
+            }
+        .sigiriya
+            {
+                width: 100%;
+                height: 200px;
+            }
+        .mgallery
+            {
+                margin-left: 4px; 
+            }
+    }
+
+@media (min-width:500px) and (max-width:699px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(8,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(8,auto);
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .hdivider   /*Home Page Section Divider*/
+            {
+                display:block;
+                grid-template-columns:none;
+            }
+        .logo
+            {
+                float: none;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        .sri_lanka_map
+            {
+                height: 800px;
+                width: 100%;
+            }
+        .sigiriya
+            {
+                width: 100%;
+                height: 340px;
+            }
+        .mgallery
+            {
+                margin-left: 20px;
+            }
+        .pic
+            {
+                width: 380px;
+                height: 180px;
+            }
+    }
+
+@media (min-width:300px) and (max-width:499px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(6,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(6,auto); 
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .hdivider   /*Home Page Section Divider*/
+            {
+                display:block;
+                grid-template-columns:none;
+            }
+        .logo
+            {
+                float: none;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        .sri_lanka_map
+            {
+                height: 500px;
+                width: 100%;
+            }
+        .sigiriya
+            {
+                width: 100%;
+                height: 260px;
+            }
+        .mgallery
+            {
+                margin-left: 2px;
+            }
+        .pic
+            {
+                width: 200px;
+                height: 140px;
+            }
+    }
+    
+@media (min-width:100px) and (max-width:299px)
+    {
+        .toprow3
+            {
+                display: grid;
+                grid-template-columns: repeat(4,auto);
+            }
+        .toprow2
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .toprow1
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow1
+            {
+                display: grid;
+                grid-template-columns: repeat(4,auto); 
+            }
+        .bottomrow2
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .bottomrow3
+            {
+                display: grid;
+                grid-template-columns: repeat(1,auto);
+            }
+        .logo
+            {
+                float: none;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        .hdivider   /*Home Page Section Divider*/
+            {
+                display:inline-block;
+                grid-template-columns:none;
+            }
+        .sri_lanka_map
+            {
+                height: 480px;
+                width: 100%;
+            }
+        .sigiriya
+            {
+                width: 100%;
+                height: 200px;
+            }
+        .mgallery
+            {
+                margin-left: 4px;
+            }
+    }
+
